@@ -1,5 +1,5 @@
 PODS:
-  - RMaterialTextFieldView (0.1.0)
+  - RMaterialTextFieldView (0.1.1)
 
 DEPENDENCIES:
   - RMaterialTextFieldView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RMaterialTextFieldView: 36623de5d1e97b92d281ebb10421f9c96dd77a3a
+  RMaterialTextFieldView: b19f343caf1d719508e5ca197efb57bd4eff2dca
 
 PODFILE CHECKSUM: ce85a924805593c19c9a04cdfb8f3d6065de760d
 
