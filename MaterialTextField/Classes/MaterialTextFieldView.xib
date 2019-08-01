@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaterialTextFieldView" customModule="MaterialTextField" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="agD-PC-SQa"/>
+                <outlet property="textField" destination="GTG-VH-Kqm" id="fL4-2m-Pi8"/>
+                <outlet property="titleLabel" destination="AYZ-I0-K00" id="Kch-Pp-Xuw"/>
+                <outlet property="titleLabelCenter" destination="h4S-nR-wO5" id="RfJ-L5-a6X"/>
+                <outlet property="titleLabelContainer" destination="9Bm-si-sU0" id="2O3-dU-ZGW"/>
+                <outlet property="titleLabelleading" destination="mgP-pJ-GkV" id="O6q-aQ-UD0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="590" height="104"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0U-jH-4bo">
+                    <rect key="frame" x="0.0" y="0.0" width="590" height="104"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GTG-VH-Kqm">
+                            <rect key="frame" x="0.0" y="10" width="590" height="94"/>
+                            <color key="textColor" red="0.12156862745098039" green="0.11764705882352941" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="12"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <view userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Bm-si-sU0" userLabel="placeholderLabel">
+                            <rect key="frame" x="10" y="51" width="54.5" height="12"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYZ-I0-K00">
+                                    <rect key="frame" x="5" y="0.0" width="44.5" height="12"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="10"/>
+                                    <color key="textColor" red="0.60784313725490191" green="0.60392156862745094" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="AYZ-I0-K00" secondAttribute="bottom" id="87u-Tt-62e"/>
+                                <constraint firstAttribute="trailing" secondItem="AYZ-I0-K00" secondAttribute="trailing" constant="5" id="Vl3-mn-Lh5"/>
+                                <constraint firstItem="AYZ-I0-K00" firstAttribute="top" secondItem="9Bm-si-sU0" secondAttribute="top" id="WS0-Tb-x8I"/>
+                                <constraint firstItem="AYZ-I0-K00" firstAttribute="leading" secondItem="9Bm-si-sU0" secondAttribute="leading" constant="5" id="qdl-6Z-D25"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="GTG-VH-Kqm" secondAttribute="trailing" id="2Jz-5m-O3Q"/>
+                        <constraint firstItem="GTG-VH-Kqm" firstAttribute="leading" secondItem="q0U-jH-4bo" secondAttribute="leading" id="Gbb-OK-3lE"/>
+                        <constraint firstItem="GTG-VH-Kqm" firstAttribute="top" secondItem="q0U-jH-4bo" secondAttribute="top" constant="10" id="KNT-sG-C3v"/>
+                        <constraint firstAttribute="bottom" secondItem="GTG-VH-Kqm" secondAttribute="bottom" id="VV5-I1-FXy"/>
+                        <constraint firstItem="9Bm-si-sU0" firstAttribute="centerY" secondItem="GTG-VH-Kqm" secondAttribute="centerY" id="h4S-nR-wO5"/>
+                        <constraint firstItem="9Bm-si-sU0" firstAttribute="leading" secondItem="GTG-VH-Kqm" secondAttribute="leading" constant="10" id="mgP-pJ-GkV"/>
+                        <constraint firstItem="9Bm-si-sU0" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="GTG-VH-Kqm" secondAttribute="trailing" constant="10" id="xVh-Am-oq2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="q0U-jH-4bo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Y06-ZD-SOi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="q0U-jH-4bo" secondAttribute="bottom" id="bPe-84-2n2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q0U-jH-4bo" secondAttribute="trailing" id="sHx-c9-HTU"/>
+                <constraint firstItem="q0U-jH-4bo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="v8b-kj-Agb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="310.39999999999998" y="331.0344827586207"/>
+        </view>
+    </objects>
+</document>

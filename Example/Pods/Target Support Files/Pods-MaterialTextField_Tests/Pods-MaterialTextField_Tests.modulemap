@@ -1,0 +1,6 @@
+framework module Pods_MaterialTextField_Tests {
+  umbrella header "Pods-MaterialTextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MaterialTextField_Example' do
+  pod 'MaterialTextField', :path => '../'
+
+  target 'MaterialTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
