@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'MaterialTextField_Example' do
-  pod 'MaterialTextField', :path => '../'
+target 'RMaterialTextFieldView_Example' do
+  pod 'RMaterialTextFieldView', :path => '../'
 
-  target 'MaterialTextField_Tests' do
+  target 'RMaterialTextFieldView_Tests' do
     inherit! :search_paths
 
     

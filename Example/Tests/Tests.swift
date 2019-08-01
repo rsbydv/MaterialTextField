@@ -1,5 +1,5 @@
 import XCTest
-import MaterialTextField
+import RMaterialTextFieldView
 
 class Tests: XCTestCase {
     

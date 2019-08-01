@@ -1,0 +1,6 @@
+framework module RMaterialTextFieldView {
+  umbrella header "RMaterialTextFieldView-umbrella.h"
+
+  export *
+  module * { export * }
+}

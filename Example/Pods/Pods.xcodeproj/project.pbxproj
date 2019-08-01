@@ -7,197 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		152EB857F2D388DF01BACEB7768BDDC2 /* MaterialTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D60E731B54420EA565C4BED2957520 /* MaterialTextField-dummy.m */; };
-		243844A35C02332126BEA6BAAC7557DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2ED9EA74F300D18022CA9C5D9B5F4505 /* MaterialTextFieldView.xib in Sources */ = {isa = PBXBuildFile; fileRef = B5726770649638D7AD8DDDBCF3D13AAF /* MaterialTextFieldView.xib */; };
-		42F171AC1DB5130C2D2C668328226A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4353ECB3CFB33B69DD40D8C302CF42CA /* MaterialTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB414BEFF28B88C2624FB236A374AB /* MaterialTextFieldView.swift */; };
-		5BEBE8CF9D34CBA2539CA68F180CE54F /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856D85FB5244DBE58E153D6E8C60D83F /* UIColor+hex.swift */; };
-		6E86B62836353B24A29AD67417C38B23 /* Pods-MaterialTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BABCC2A0E6677752C5605EEF6A478B /* Pods-MaterialTextField_Tests-dummy.m */; };
-		8F2DB33DDA04454ECBEF2A403DE02E2E /* MaterialTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41ECD9ED8D3195EE7CA52AC67B078325 /* MaterialTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99225915461D4D624E4F0D011FC84A13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AC52FE3D4EEA35C0EFE33C1A65689CCD /* Pods-MaterialTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6C5D3F277C80DA7D85350966CA494 /* Pods-MaterialTextField_Example-dummy.m */; };
-		CD796D53DA0A92E1C76501979491421D /* Pods-MaterialTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6E94BFE153222A0A6581CB66E2A55C /* Pods-MaterialTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4C79E7D27D57CDDE0CAD23D7F0EEFA3 /* Pods-MaterialTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6E4E0159D2238919A5967260F31D03 /* Pods-MaterialTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07FDB4EFD94B00D137489E4A3BDDE7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A73B482F5F9375AEB424147B9EA4F53 /* Pods-RMaterialTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88148B7FD2F7B41825221FA439D0B0D5 /* Pods-RMaterialTextFieldView_Tests-dummy.m */; };
+		3CA510613711C126F20AC982078FC5C6 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A8765F8AE57FD6092BE5A6E1A7C512 /* UIColor+hex.swift */; };
+		3E21B903056442E7321AFD27E0B81FBE /* MaterialTextFieldView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 71CD7D04EFB48A030D6AC266CBDEC8A5 /* MaterialTextFieldView.xib */; };
+		6B9D9371755F981A22D342785C4BC8EF /* RMaterialTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2297B96622BEE0F8CC88893C7310BD /* RMaterialTextFieldView-dummy.m */; };
+		70B9AD8B4992B49CAA3287BA834088A2 /* Pods-RMaterialTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F20E2D0E71DA31D69F591ADC38CD79D /* Pods-RMaterialTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736B3A04A9F13BC238CDCCE05D0A82D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		98CC671CFAD8F6FFEE4415DEC5122618 /* RMaterialTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 953099166810847ABB1CE07A96D3827C /* RMaterialTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42F28B83A1D832814AC3F75D2787001 /* MaterialTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8C1E1B7CB6E1F1643B4FF3B1BEAB7 /* MaterialTextFieldView.swift */; };
+		E4EDF4D1241525D6A3728C5CF7CC64C7 /* Pods-RMaterialTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E090DE3661B3A87380E27118DE933F87 /* Pods-RMaterialTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE6F2DF4E6D372ACD0F0B14F1BC0140 /* Pods-RMaterialTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2201D68B2936ACCBCBB4F9C6CC5C64D8 /* Pods-RMaterialTextFieldView_Example-dummy.m */; };
+		F12A684DE99FFE00F8DD0207E55784A8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A941A10C05E8AF9936DE8655821E75 /* ReplaceMe.swift */; };
+		F2E05FCF1E24017931968D190D520363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		007E9F750B44AF2265371EAF43BAC161 /* PBXContainerItemProxy */ = {
+		50CEEF6172B781900768BF88F56E0646 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9D87BB753B2B398E2BA6BEB1E2F14D5;
-			remoteInfo = "Pods-MaterialTextField_Example";
+			remoteGlobalIDString = 8D350AF003D378DCDA8F2E0F9CF6C8A4;
+			remoteInfo = "Pods-RMaterialTextFieldView_Example";
 		};
-		EA9211D63E3DC60074DF70AF11419455 /* PBXContainerItemProxy */ = {
+		82A401CDF6EA1B17AC7545CFE6D2A441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D4D28FDC0D365E38ECA3741AF256A67;
-			remoteInfo = MaterialTextField;
+			remoteGlobalIDString = D92A0748143F2640965C4F1DABD87F82;
+			remoteInfo = RMaterialTextFieldView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044D8B2D1F0DCFEEC276663E9E0EA003 /* Pods-MaterialTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		059D8904E20CC1929A84BE3A26159121 /* MaterialTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MaterialTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		18ED17689F7286B0629BE8CA4AF8A991 /* Pods_MaterialTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaterialTextField_Example.framework; path = "Pods-MaterialTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21D60E731B54420EA565C4BED2957520 /* MaterialTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialTextField-dummy.m"; sourceTree = "<group>"; };
-		24FB414BEFF28B88C2624FB236A374AB /* MaterialTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTextFieldView.swift; path = MaterialTextField/Classes/MaterialTextFieldView.swift; sourceTree = "<group>"; };
-		27132C0D5BB993A61B065A97753BDF5A /* Pods-MaterialTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		28EF3A3603156E3392AEC36FF8753C52 /* Pods-MaterialTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaterialTextField_Example.modulemap"; sourceTree = "<group>"; };
-		2CE6C5D3F277C80DA7D85350966CA494 /* Pods-MaterialTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		09F4F0CEAF88F63BD208477EFACA1B7D /* Pods_RMaterialTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RMaterialTextFieldView_Example.framework; path = "Pods-RMaterialTextFieldView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AA0891A5BB948BF7765106F248FBB8 /* Pods-RMaterialTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RMaterialTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
+		1F20E2D0E71DA31D69F591ADC38CD79D /* Pods-RMaterialTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMaterialTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
+		1FF8C1E1B7CB6E1F1643B4FF3B1BEAB7 /* MaterialTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTextFieldView.swift; path = RMaterialTextFieldView/Classes/MaterialTextFieldView.swift; sourceTree = "<group>"; };
+		2201D68B2936ACCBCBB4F9C6CC5C64D8 /* Pods-RMaterialTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMaterialTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
+		23A4E219AD31E5A786E34C42FDA4028F /* Pods-RMaterialTextFieldView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMaterialTextFieldView_Tests-Info.plist"; sourceTree = "<group>"; };
+		29A3FCD3B226AFE7A3653F3FCB53D577 /* Pods_RMaterialTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RMaterialTextFieldView_Tests.framework; path = "Pods-RMaterialTextFieldView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		38F6E7F348237ED774F4FF0439A60DD9 /* MaterialTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialTextField-prefix.pch"; sourceTree = "<group>"; };
-		41ECD9ED8D3195EE7CA52AC67B078325 /* MaterialTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialTextField-umbrella.h"; sourceTree = "<group>"; };
-		4B647468BA2D30DC3B96F15A875990EC /* MaterialTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialTextField.modulemap; sourceTree = "<group>"; };
-		5F6E4E0159D2238919A5967260F31D03 /* Pods-MaterialTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D6E94BFE153222A0A6581CB66E2A55C /* Pods-MaterialTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		817CEDE0C7C1210529F44319907334D3 /* MaterialTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialTextField.xcconfig; sourceTree = "<group>"; };
-		856D85FB5244DBE58E153D6E8C60D83F /* UIColor+hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+hex.swift"; path = "MaterialTextField/Classes/UIColor+hex.swift"; sourceTree = "<group>"; };
-		910647EC494C19D8D99DAD8FA9A66055 /* Pods-MaterialTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		928A3BD837596DC0C1EFB516D1BCF71B /* Pods-MaterialTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9439332C27C78C7C622C79206240844C /* Pods-MaterialTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		34F901E89B7E36B5ED0ACD00BB3C05DD /* Pods-RMaterialTextFieldView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMaterialTextFieldView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3622C79D40989A8635AD988D3E472546 /* RMaterialTextFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMaterialTextFieldView-Info.plist"; sourceTree = "<group>"; };
+		3E8533943C394500321793F1CB807603 /* Pods-RMaterialTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMaterialTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A86BB602BE4157BC9ADA5E026C4191D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		56C64ACE42317296082C4CC41DE1C673 /* Pods-RMaterialTextFieldView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMaterialTextFieldView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58A8765F8AE57FD6092BE5A6E1A7C512 /* UIColor+hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+hex.swift"; path = "RMaterialTextFieldView/Classes/UIColor+hex.swift"; sourceTree = "<group>"; };
+		6C96C57362131FB4BF284761D9AF87BD /* Pods-RMaterialTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RMaterialTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
+		6D34C86BE3DB4CB1E6246B5C4DD29B85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7187BCA5125B1CADEAF97CD91B3E752A /* Pods-RMaterialTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMaterialTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71CD7D04EFB48A030D6AC266CBDEC8A5 /* MaterialTextFieldView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MaterialTextFieldView.xib; path = RMaterialTextFieldView/Classes/MaterialTextFieldView.xib; sourceTree = "<group>"; };
+		7A783E289673FB97DBD131D492874AF4 /* RMaterialTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMaterialTextFieldView-prefix.pch"; sourceTree = "<group>"; };
+		88148B7FD2F7B41825221FA439D0B0D5 /* Pods-RMaterialTextFieldView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMaterialTextFieldView_Tests-dummy.m"; sourceTree = "<group>"; };
+		953099166810847ABB1CE07A96D3827C /* RMaterialTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMaterialTextFieldView-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2E639F077757689A6477EFCA25780FE /* Pods-MaterialTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A96D2915BED7A869A95A31E0C0C83E99 /* Pods-MaterialTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B5726770649638D7AD8DDDBCF3D13AAF /* MaterialTextFieldView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MaterialTextFieldView.xib; path = MaterialTextField/Classes/MaterialTextFieldView.xib; sourceTree = "<group>"; };
-		B87852FD68F1626217CA9E4F8F7E345C /* Pods-MaterialTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaterialTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		B8BABCC2A0E6677752C5605EEF6A478B /* Pods-MaterialTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialTextField_Tests-dummy.m"; sourceTree = "<group>"; };
-		C4F0FC3C865300D35936FA7B970FCC4A /* Pods-MaterialTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C50DDEFB12773C8CA372A93E380A3831 /* Pods-MaterialTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTextField_Example-Info.plist"; sourceTree = "<group>"; };
-		C5EB423067B2ABEADCB81BBF26C7F85A /* Pods-MaterialTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTextField_Tests-Info.plist"; sourceTree = "<group>"; };
-		D1228AEC82E099129A8786BA982E93D7 /* Pods-MaterialTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5E9126229C3B7D113A89AB247D2BC94 /* MaterialTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialTextField-Info.plist"; sourceTree = "<group>"; };
-		DE4AEE295969183E68102BB98180FDF7 /* MaterialTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialTextField.framework; path = MaterialTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F05B1F1F4EACE1623EF027DF9159A2E6 /* Pods_MaterialTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaterialTextField_Tests.framework; path = "Pods-MaterialTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F104945A021CEF9666B197CEC9FA723D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F84E0E4A44BF2E9CA939636AC7CCDF84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ABABD274623328EA91C0D5B3CBD4DE02 /* Pods-RMaterialTextFieldView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMaterialTextFieldView_Example-Info.plist"; sourceTree = "<group>"; };
+		B4B19D98B116E8216E9276DDE02B0468 /* RMaterialTextFieldView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMaterialTextFieldView.xcconfig; sourceTree = "<group>"; };
+		B95532313FE1C0D0901E3E52B5143DB9 /* RMaterialTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMaterialTextFieldView.framework; path = RMaterialTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39285C9E57DEA15D8934CA821649D8C /* Pods-RMaterialTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMaterialTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2297B96622BEE0F8CC88893C7310BD /* RMaterialTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMaterialTextFieldView-dummy.m"; sourceTree = "<group>"; };
+		E090DE3661B3A87380E27118DE933F87 /* Pods-RMaterialTextFieldView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMaterialTextFieldView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E3E0FC8E11A714F61AA3A367260AE22F /* RMaterialTextFieldView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RMaterialTextFieldView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6117C6E1889860603F600F23FD27E5B /* Pods-RMaterialTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMaterialTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8CAD6FFB774942043DB226B1117EE48 /* Pods-RMaterialTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMaterialTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8756C03EC441367C683BF90345D15B /* Pods-RMaterialTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMaterialTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F02AA9AA01F79F9546562286D12A319F /* Pods-RMaterialTextFieldView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMaterialTextFieldView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8A941A10C05E8AF9936DE8655821E75 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RMaterialTextFieldView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FDF874B67F20F1FFBEB661EFC9698BE7 /* RMaterialTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMaterialTextFieldView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0930D763D788FA3899FFF6C017860044 /* Frameworks */ = {
+		44083DB985115F45E4E1BE8821E997C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99225915461D4D624E4F0D011FC84A13 /* Foundation.framework in Frameworks */,
+				F2E05FCF1E24017931968D190D520363 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D17EFBCF2BD7CFA1EDA834037B6E3C7C /* Frameworks */ = {
+		A505377E930E9EC6FB5F8E05E850C02D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F171AC1DB5130C2D2C668328226A68 /* Foundation.framework in Frameworks */,
+				736B3A04A9F13BC238CDCCE05D0A82D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9F79C6FC4D778291B1307FB54BBF93A /* Frameworks */ = {
+		E35F0205A7425C6FF4721C304D97ED8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243844A35C02332126BEA6BAAC7557DC /* Foundation.framework in Frameworks */,
+				07FDB4EFD94B00D137489E4A3BDDE7F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F86B58780DB27DD431ED6D8BFD2ECD /* Pods-MaterialTextField_Tests */ = {
+		6928E2DB6CC7E5F3F76BE9380A0A0E15 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B87852FD68F1626217CA9E4F8F7E345C /* Pods-MaterialTextField_Tests.modulemap */,
-				C4F0FC3C865300D35936FA7B970FCC4A /* Pods-MaterialTextField_Tests-acknowledgements.markdown */,
-				D1228AEC82E099129A8786BA982E93D7 /* Pods-MaterialTextField_Tests-acknowledgements.plist */,
-				B8BABCC2A0E6677752C5605EEF6A478B /* Pods-MaterialTextField_Tests-dummy.m */,
-				C5EB423067B2ABEADCB81BBF26C7F85A /* Pods-MaterialTextField_Tests-Info.plist */,
-				6D6E94BFE153222A0A6581CB66E2A55C /* Pods-MaterialTextField_Tests-umbrella.h */,
-				A2E639F077757689A6477EFCA25780FE /* Pods-MaterialTextField_Tests.debug.xcconfig */,
-				910647EC494C19D8D99DAD8FA9A66055 /* Pods-MaterialTextField_Tests.release.xcconfig */,
-			);
-			name = "Pods-MaterialTextField_Tests";
-			path = "Target Support Files/Pods-MaterialTextField_Tests";
-			sourceTree = "<group>";
-		};
-		13E7EF621233A3B074233CEC6862DB22 /* MaterialTextField */ = {
-			isa = PBXGroup;
-			children = (
-				24FB414BEFF28B88C2624FB236A374AB /* MaterialTextFieldView.swift */,
-				B5726770649638D7AD8DDDBCF3D13AAF /* MaterialTextFieldView.xib */,
-				856D85FB5244DBE58E153D6E8C60D83F /* UIColor+hex.swift */,
-				7443EC275A0F70BEE5726453BB921A8D /* Pod */,
-				52307BC37C6F126D0C923B4247DA96D0 /* Support Files */,
-			);
-			name = MaterialTextField;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		22427AEF5D882D5BAEB3B7FC7EC59D29 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				13E7EF621233A3B074233CEC6862DB22 /* MaterialTextField */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2A9F6BE55D0A43D1961908E99366798D /* Pods-MaterialTextField_Example */ = {
-			isa = PBXGroup;
-			children = (
-				28EF3A3603156E3392AEC36FF8753C52 /* Pods-MaterialTextField_Example.modulemap */,
-				27132C0D5BB993A61B065A97753BDF5A /* Pods-MaterialTextField_Example-acknowledgements.markdown */,
-				9439332C27C78C7C622C79206240844C /* Pods-MaterialTextField_Example-acknowledgements.plist */,
-				2CE6C5D3F277C80DA7D85350966CA494 /* Pods-MaterialTextField_Example-dummy.m */,
-				A96D2915BED7A869A95A31E0C0C83E99 /* Pods-MaterialTextField_Example-frameworks.sh */,
-				C50DDEFB12773C8CA372A93E380A3831 /* Pods-MaterialTextField_Example-Info.plist */,
-				5F6E4E0159D2238919A5967260F31D03 /* Pods-MaterialTextField_Example-umbrella.h */,
-				928A3BD837596DC0C1EFB516D1BCF71B /* Pods-MaterialTextField_Example.debug.xcconfig */,
-				044D8B2D1F0DCFEEC276663E9E0EA003 /* Pods-MaterialTextField_Example.release.xcconfig */,
-			);
-			name = "Pods-MaterialTextField_Example";
-			path = "Target Support Files/Pods-MaterialTextField_Example";
-			sourceTree = "<group>";
-		};
-		2D3140893F7C812F358797E7095B923C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A9F6BE55D0A43D1961908E99366798D /* Pods-MaterialTextField_Example */,
-				09F86B58780DB27DD431ED6D8BFD2ECD /* Pods-MaterialTextField_Tests */,
+				EB333E6D942CE1806E7A56029E7775B2 /* Pods-RMaterialTextFieldView_Example */,
+				9BEBDA31DF04C9F299A05978385E74A4 /* Pods-RMaterialTextFieldView_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		52307BC37C6F126D0C923B4247DA96D0 /* Support Files */ = {
+		6FDBFC0FAC66A54984923DAC8C10532B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B647468BA2D30DC3B96F15A875990EC /* MaterialTextField.modulemap */,
-				817CEDE0C7C1210529F44319907334D3 /* MaterialTextField.xcconfig */,
-				21D60E731B54420EA565C4BED2957520 /* MaterialTextField-dummy.m */,
-				D5E9126229C3B7D113A89AB247D2BC94 /* MaterialTextField-Info.plist */,
-				38F6E7F348237ED774F4FF0439A60DD9 /* MaterialTextField-prefix.pch */,
-				41ECD9ED8D3195EE7CA52AC67B078325 /* MaterialTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MaterialTextField";
-			sourceTree = "<group>";
-		};
-		7443EC275A0F70BEE5726453BB921A8D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F104945A021CEF9666B197CEC9FA723D /* LICENSE */,
-				059D8904E20CC1929A84BE3A26159121 /* MaterialTextField.podspec */,
-				F84E0E4A44BF2E9CA939636AC7CCDF84 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		754D81FD8226595874C1B72D7C39BC40 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE4AEE295969183E68102BB98180FDF7 /* MaterialTextField.framework */,
-				18ED17689F7286B0629BE8CA4AF8A991 /* Pods_MaterialTextField_Example.framework */,
-				F05B1F1F4EACE1623EF027DF9159A2E6 /* Pods_MaterialTextField_Tests.framework */,
+				09F4F0CEAF88F63BD208477EFACA1B7D /* Pods_RMaterialTextFieldView_Example.framework */,
+				29A3FCD3B226AFE7A3653F3FCB53D577 /* Pods_RMaterialTextFieldView_Tests.framework */,
+				B95532313FE1C0D0901E3E52B5143DB9 /* RMaterialTextFieldView.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE7AB82CEDB24B3F8B3A0A63DCF3212 /* RMaterialTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8C1E1B7CB6E1F1643B4FF3B1BEAB7 /* MaterialTextFieldView.swift */,
+				71CD7D04EFB48A030D6AC266CBDEC8A5 /* MaterialTextFieldView.xib */,
+				F8A941A10C05E8AF9936DE8655821E75 /* ReplaceMe.swift */,
+				58A8765F8AE57FD6092BE5A6E1A7C512 /* UIColor+hex.swift */,
+				F1CFD93D56E8298B2A9D09643CA4EB36 /* Pod */,
+				CDBADDFBCCC267DB8E58F3433DCDD4C2 /* Support Files */,
+			);
+			name = RMaterialTextFieldView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9BEBDA31DF04C9F299A05978385E74A4 /* Pods-RMaterialTextFieldView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				10AA0891A5BB948BF7765106F248FBB8 /* Pods-RMaterialTextFieldView_Tests.modulemap */,
+				34F901E89B7E36B5ED0ACD00BB3C05DD /* Pods-RMaterialTextFieldView_Tests-acknowledgements.markdown */,
+				F02AA9AA01F79F9546562286D12A319F /* Pods-RMaterialTextFieldView_Tests-acknowledgements.plist */,
+				88148B7FD2F7B41825221FA439D0B0D5 /* Pods-RMaterialTextFieldView_Tests-dummy.m */,
+				23A4E219AD31E5A786E34C42FDA4028F /* Pods-RMaterialTextFieldView_Tests-Info.plist */,
+				E090DE3661B3A87380E27118DE933F87 /* Pods-RMaterialTextFieldView_Tests-umbrella.h */,
+				E8CAD6FFB774942043DB226B1117EE48 /* Pods-RMaterialTextFieldView_Tests.debug.xcconfig */,
+				3E8533943C394500321793F1CB807603 /* Pods-RMaterialTextFieldView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RMaterialTextFieldView_Tests";
+			path = "Target Support Files/Pods-RMaterialTextFieldView_Tests";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -208,14 +162,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CBC594B041349A1AF136813B14329262 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7AB82CEDB24B3F8B3A0A63DCF3212 /* RMaterialTextFieldView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CDBADDFBCCC267DB8E58F3433DCDD4C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF874B67F20F1FFBEB661EFC9698BE7 /* RMaterialTextFieldView.modulemap */,
+				B4B19D98B116E8216E9276DDE02B0468 /* RMaterialTextFieldView.xcconfig */,
+				DB2297B96622BEE0F8CC88893C7310BD /* RMaterialTextFieldView-dummy.m */,
+				3622C79D40989A8635AD988D3E472546 /* RMaterialTextFieldView-Info.plist */,
+				7A783E289673FB97DBD131D492874AF4 /* RMaterialTextFieldView-prefix.pch */,
+				953099166810847ABB1CE07A96D3827C /* RMaterialTextFieldView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RMaterialTextFieldView";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				22427AEF5D882D5BAEB3B7FC7EC59D29 /* Development Pods */,
+				CBC594B041349A1AF136813B14329262 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				754D81FD8226595874C1B72D7C39BC40 /* Products */,
-				2D3140893F7C812F358797E7095B923C /* Targets Support Files */,
+				6FDBFC0FAC66A54984923DAC8C10532B /* Products */,
+				6928E2DB6CC7E5F3F76BE9380A0A0E15 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,90 +203,117 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EB333E6D942CE1806E7A56029E7775B2 /* Pods-RMaterialTextFieldView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C96C57362131FB4BF284761D9AF87BD /* Pods-RMaterialTextFieldView_Example.modulemap */,
+				7187BCA5125B1CADEAF97CD91B3E752A /* Pods-RMaterialTextFieldView_Example-acknowledgements.markdown */,
+				EA8756C03EC441367C683BF90345D15B /* Pods-RMaterialTextFieldView_Example-acknowledgements.plist */,
+				2201D68B2936ACCBCBB4F9C6CC5C64D8 /* Pods-RMaterialTextFieldView_Example-dummy.m */,
+				56C64ACE42317296082C4CC41DE1C673 /* Pods-RMaterialTextFieldView_Example-frameworks.sh */,
+				ABABD274623328EA91C0D5B3CBD4DE02 /* Pods-RMaterialTextFieldView_Example-Info.plist */,
+				1F20E2D0E71DA31D69F591ADC38CD79D /* Pods-RMaterialTextFieldView_Example-umbrella.h */,
+				D39285C9E57DEA15D8934CA821649D8C /* Pods-RMaterialTextFieldView_Example.debug.xcconfig */,
+				E6117C6E1889860603F600F23FD27E5B /* Pods-RMaterialTextFieldView_Example.release.xcconfig */,
+			);
+			name = "Pods-RMaterialTextFieldView_Example";
+			path = "Target Support Files/Pods-RMaterialTextFieldView_Example";
+			sourceTree = "<group>";
+		};
+		F1CFD93D56E8298B2A9D09643CA4EB36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4A86BB602BE4157BC9ADA5E026C4191D /* LICENSE */,
+				6D34C86BE3DB4CB1E6246B5C4DD29B85 /* README.md */,
+				E3E0FC8E11A714F61AA3A367260AE22F /* RMaterialTextFieldView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6FF3FF4F163B6B3000E6399C6598DB09 /* Headers */ = {
+		4D2C46D068CCE8AC98643A792670000F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4C79E7D27D57CDDE0CAD23D7F0EEFA3 /* Pods-MaterialTextField_Example-umbrella.h in Headers */,
+				E4EDF4D1241525D6A3728C5CF7CC64C7 /* Pods-RMaterialTextFieldView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FD64C63377F8C69E73AAEBA6F7EF155 /* Headers */ = {
+		7FE680F4820AB959BF7EAD9AA18F19CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2DB33DDA04454ECBEF2A403DE02E2E /* MaterialTextField-umbrella.h in Headers */,
+				98CC671CFAD8F6FFEE4415DEC5122618 /* RMaterialTextFieldView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2FBFFD5867DAAEE869B228A5144C910 /* Headers */ = {
+		EDD20A6D99D47C582E31ECEF73C83295 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD796D53DA0A92E1C76501979491421D /* Pods-MaterialTextField_Tests-umbrella.h in Headers */,
+				70B9AD8B4992B49CAA3287BA834088A2 /* Pods-RMaterialTextFieldView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CF0C7BFBDDB71E3FE60F9804CDAC78F /* Pods-MaterialTextField_Tests */ = {
+		18241937F2E47B61465E487736255EAD /* Pods-RMaterialTextFieldView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A4CA07AB3F3A7C5B65762F6B63E79B6 /* Build configuration list for PBXNativeTarget "Pods-MaterialTextField_Tests" */;
+			buildConfigurationList = E8425009E0C2D0A63C936D04ADFAEA53 /* Build configuration list for PBXNativeTarget "Pods-RMaterialTextFieldView_Tests" */;
 			buildPhases = (
-				E2FBFFD5867DAAEE869B228A5144C910 /* Headers */,
-				C4E802E71B672A979DFD64CFCE4C4C27 /* Sources */,
-				0930D763D788FA3899FFF6C017860044 /* Frameworks */,
-				6A98299B78953CEAB8468364CB09D8EE /* Resources */,
+				4D2C46D068CCE8AC98643A792670000F /* Headers */,
+				D0C54344171FCA51B944D307C3B38D8B /* Sources */,
+				44083DB985115F45E4E1BE8821E997C2 /* Frameworks */,
+				9F74A1A3C7B4EC38084FB4712EE9B45D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FEE54526293697363C37D3F24412900 /* PBXTargetDependency */,
+				EC4CB6F0B353C672D81F2D974D707153 /* PBXTargetDependency */,
 			);
-			name = "Pods-MaterialTextField_Tests";
-			productName = "Pods-MaterialTextField_Tests";
-			productReference = F05B1F1F4EACE1623EF027DF9159A2E6 /* Pods_MaterialTextField_Tests.framework */;
+			name = "Pods-RMaterialTextFieldView_Tests";
+			productName = "Pods-RMaterialTextFieldView_Tests";
+			productReference = 29A3FCD3B226AFE7A3653F3FCB53D577 /* Pods_RMaterialTextFieldView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D4D28FDC0D365E38ECA3741AF256A67 /* MaterialTextField */ = {
+		8D350AF003D378DCDA8F2E0F9CF6C8A4 /* Pods-RMaterialTextFieldView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DC4202D63F8C38F4A90746AE8B8C652 /* Build configuration list for PBXNativeTarget "MaterialTextField" */;
+			buildConfigurationList = 94CFB2E405759D8AFC386F4F0E5EA06E /* Build configuration list for PBXNativeTarget "Pods-RMaterialTextFieldView_Example" */;
 			buildPhases = (
-				8FD64C63377F8C69E73AAEBA6F7EF155 /* Headers */,
-				2171C8003DE942F7D8D12D94E976A57D /* Sources */,
-				E9F79C6FC4D778291B1307FB54BBF93A /* Frameworks */,
-				75BD46C444BC717C6DAD87261F381491 /* Resources */,
+				EDD20A6D99D47C582E31ECEF73C83295 /* Headers */,
+				10C15B9110D7B28C5E248BB8CB154391 /* Sources */,
+				A505377E930E9EC6FB5F8E05E850C02D /* Frameworks */,
+				4AD233889424A3ACA9CCBAB334DDE1B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B247D3F7BDD4E6483805D3E114AABEFE /* PBXTargetDependency */,
 			);
-			name = MaterialTextField;
-			productName = MaterialTextField;
-			productReference = DE4AEE295969183E68102BB98180FDF7 /* MaterialTextField.framework */;
+			name = "Pods-RMaterialTextFieldView_Example";
+			productName = "Pods-RMaterialTextFieldView_Example";
+			productReference = 09F4F0CEAF88F63BD208477EFACA1B7D /* Pods_RMaterialTextFieldView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B9D87BB753B2B398E2BA6BEB1E2F14D5 /* Pods-MaterialTextField_Example */ = {
+		D92A0748143F2640965C4F1DABD87F82 /* RMaterialTextFieldView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D05DF1587D608B343B0BC78C90D25505 /* Build configuration list for PBXNativeTarget "Pods-MaterialTextField_Example" */;
+			buildConfigurationList = 47D2AF92212B4161EB2B86BC8892609F /* Build configuration list for PBXNativeTarget "RMaterialTextFieldView" */;
 			buildPhases = (
-				6FF3FF4F163B6B3000E6399C6598DB09 /* Headers */,
-				53A62751C5D2AD987BA2BC9C3FE81061 /* Sources */,
-				D17EFBCF2BD7CFA1EDA834037B6E3C7C /* Frameworks */,
-				40CA7F24044B4177EAE0E3A935F54CD8 /* Resources */,
+				7FE680F4820AB959BF7EAD9AA18F19CE /* Headers */,
+				2C55E48BD28860E1D1FD75A18F9D72EC /* Sources */,
+				E35F0205A7425C6FF4721C304D97ED8E /* Frameworks */,
+				C79F3A056143C4074A5FD244181C71D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3BAEDB94F736C49379DB88F46AF183F2 /* PBXTargetDependency */,
 			);
-			name = "Pods-MaterialTextField_Example";
-			productName = "Pods-MaterialTextField_Example";
-			productReference = 18ED17689F7286B0629BE8CA4AF8A991 /* Pods_MaterialTextField_Example.framework */;
+			name = RMaterialTextFieldView;
+			productName = RMaterialTextFieldView;
+			productReference = B95532313FE1C0D0901E3E52B5143DB9 /* RMaterialTextFieldView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,33 +333,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 754D81FD8226595874C1B72D7C39BC40 /* Products */;
+			productRefGroup = 6FDBFC0FAC66A54984923DAC8C10532B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D4D28FDC0D365E38ECA3741AF256A67 /* MaterialTextField */,
-				B9D87BB753B2B398E2BA6BEB1E2F14D5 /* Pods-MaterialTextField_Example */,
-				2CF0C7BFBDDB71E3FE60F9804CDAC78F /* Pods-MaterialTextField_Tests */,
+				8D350AF003D378DCDA8F2E0F9CF6C8A4 /* Pods-RMaterialTextFieldView_Example */,
+				18241937F2E47B61465E487736255EAD /* Pods-RMaterialTextFieldView_Tests */,
+				D92A0748143F2640965C4F1DABD87F82 /* RMaterialTextFieldView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40CA7F24044B4177EAE0E3A935F54CD8 /* Resources */ = {
+		4AD233889424A3ACA9CCBAB334DDE1B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A98299B78953CEAB8468364CB09D8EE /* Resources */ = {
+		9F74A1A3C7B4EC38084FB4712EE9B45D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75BD46C444BC717C6DAD87261F381491 /* Resources */ = {
+		C79F3A056143C4074A5FD244181C71D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,54 +369,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2171C8003DE942F7D8D12D94E976A57D /* Sources */ = {
+		10C15B9110D7B28C5E248BB8CB154391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				152EB857F2D388DF01BACEB7768BDDC2 /* MaterialTextField-dummy.m in Sources */,
-				4353ECB3CFB33B69DD40D8C302CF42CA /* MaterialTextFieldView.swift in Sources */,
-				2ED9EA74F300D18022CA9C5D9B5F4505 /* MaterialTextFieldView.xib in Sources */,
-				5BEBE8CF9D34CBA2539CA68F180CE54F /* UIColor+hex.swift in Sources */,
+				EDE6F2DF4E6D372ACD0F0B14F1BC0140 /* Pods-RMaterialTextFieldView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53A62751C5D2AD987BA2BC9C3FE81061 /* Sources */ = {
+		2C55E48BD28860E1D1FD75A18F9D72EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC52FE3D4EEA35C0EFE33C1A65689CCD /* Pods-MaterialTextField_Example-dummy.m in Sources */,
+				E42F28B83A1D832814AC3F75D2787001 /* MaterialTextFieldView.swift in Sources */,
+				3E21B903056442E7321AFD27E0B81FBE /* MaterialTextFieldView.xib in Sources */,
+				F12A684DE99FFE00F8DD0207E55784A8 /* ReplaceMe.swift in Sources */,
+				6B9D9371755F981A22D342785C4BC8EF /* RMaterialTextFieldView-dummy.m in Sources */,
+				3CA510613711C126F20AC982078FC5C6 /* UIColor+hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4E802E71B672A979DFD64CFCE4C4C27 /* Sources */ = {
+		D0C54344171FCA51B944D307C3B38D8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E86B62836353B24A29AD67417C38B23 /* Pods-MaterialTextField_Tests-dummy.m in Sources */,
+				3A73B482F5F9375AEB424147B9EA4F53 /* Pods-RMaterialTextFieldView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FEE54526293697363C37D3F24412900 /* PBXTargetDependency */ = {
+		B247D3F7BDD4E6483805D3E114AABEFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-MaterialTextField_Example";
-			target = B9D87BB753B2B398E2BA6BEB1E2F14D5 /* Pods-MaterialTextField_Example */;
-			targetProxy = 007E9F750B44AF2265371EAF43BAC161 /* PBXContainerItemProxy */;
+			name = RMaterialTextFieldView;
+			target = D92A0748143F2640965C4F1DABD87F82 /* RMaterialTextFieldView */;
+			targetProxy = 82A401CDF6EA1B17AC7545CFE6D2A441 /* PBXContainerItemProxy */;
 		};
-		3BAEDB94F736C49379DB88F46AF183F2 /* PBXTargetDependency */ = {
+		EC4CB6F0B353C672D81F2D974D707153 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MaterialTextField;
-			target = 6D4D28FDC0D365E38ECA3741AF256A67 /* MaterialTextField */;
-			targetProxy = EA9211D63E3DC60074DF70AF11419455 /* PBXContainerItemProxy */;
+			name = "Pods-RMaterialTextFieldView_Example";
+			target = 8D350AF003D378DCDA8F2E0F9CF6C8A4 /* Pods-RMaterialTextFieldView_Example */;
+			targetProxy = 50CEEF6172B781900768BF88F56E0646 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12BA936CBF57D26668707838EE516665 /* Debug */ = {
+		08669BD81E929544683F75A642792B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 817CEDE0C7C1210529F44319907334D3 /* MaterialTextField.xcconfig */;
+			baseConfigurationReference = B4B19D98B116E8216E9276DDE02B0468 /* RMaterialTextFieldView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -424,14 +428,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MaterialTextField/MaterialTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialTextField/MaterialTextField-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RMaterialTextFieldView/RMaterialTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMaterialTextFieldView/RMaterialTextFieldView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MaterialTextField/MaterialTextField.modulemap";
-				PRODUCT_MODULE_NAME = MaterialTextField;
-				PRODUCT_NAME = MaterialTextField;
+				MODULEMAP_FILE = "Target Support Files/RMaterialTextFieldView/RMaterialTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = RMaterialTextFieldView;
+				PRODUCT_NAME = RMaterialTextFieldView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -442,43 +446,9 @@
 			};
 			name = Debug;
 		};
-		28F2866163C2E17FF78BAB4CA84F2107 /* Release */ = {
+		23F750694BD763B814084E301E412F84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 044D8B2D1F0DCFEEC276663E9E0EA003 /* Pods-MaterialTextField_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTextField_Example/Pods-MaterialTextField_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaterialTextField_Example/Pods-MaterialTextField_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		377A23FD312C5A53E04D02136382B748 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 817CEDE0C7C1210529F44319907334D3 /* MaterialTextField.xcconfig */;
+			baseConfigurationReference = B4B19D98B116E8216E9276DDE02B0468 /* RMaterialTextFieldView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -489,14 +459,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MaterialTextField/MaterialTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialTextField/MaterialTextField-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RMaterialTextFieldView/RMaterialTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMaterialTextFieldView/RMaterialTextFieldView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MaterialTextField/MaterialTextField.modulemap";
-				PRODUCT_MODULE_NAME = MaterialTextField;
-				PRODUCT_NAME = MaterialTextField;
+				MODULEMAP_FILE = "Target Support Files/RMaterialTextFieldView/RMaterialTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = RMaterialTextFieldView;
+				PRODUCT_NAME = RMaterialTextFieldView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -508,9 +478,9 @@
 			};
 			name = Release;
 		};
-		58F9C7AD3AFB12B065AB59A3339641D8 /* Release */ = {
+		56F99D72CD46ADED35BE6F4E6C6A306A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 910647EC494C19D8D99DAD8FA9A66055 /* Pods-MaterialTextField_Tests.release.xcconfig */;
+			baseConfigurationReference = 3E8533943C394500321793F1CB807603 /* Pods-RMaterialTextFieldView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -522,12 +492,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTextField_Tests/Pods-MaterialTextField_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Tests/Pods-RMaterialTextFieldView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaterialTextField_Tests/Pods-MaterialTextField_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Tests/Pods-RMaterialTextFieldView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -542,7 +512,73 @@
 			};
 			name = Release;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		787E7178497AD90D08AF884CCCB0E355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39285C9E57DEA15D8934CA821649D8C /* Pods-RMaterialTextFieldView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Example/Pods-RMaterialTextFieldView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Example/Pods-RMaterialTextFieldView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		978DEDE25FEA2FEFC165A7BC95B7E787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CAD6FFB774942043DB226B1117EE48 /* Pods-RMaterialTextFieldView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Tests/Pods-RMaterialTextFieldView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Tests/Pods-RMaterialTextFieldView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -590,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,7 +638,7 @@
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -653,7 +689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -666,9 +702,9 @@
 			};
 			name = Debug;
 		};
-		9C4BF913802D989B46B99DB3BAB1E30B /* Debug */ = {
+		DFD5894C67E0CE9926EBA2361E587F59 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2E639F077757689A6477EFCA25780FE /* Pods-MaterialTextField_Tests.debug.xcconfig */;
+			baseConfigurationReference = E6117C6E1889860603F600F23FD27E5B /* Pods-RMaterialTextFieldView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -680,12 +716,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTextField_Tests/Pods-MaterialTextField_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Example/Pods-RMaterialTextFieldView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaterialTextField_Tests/Pods-MaterialTextField_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RMaterialTextFieldView_Example/Pods-RMaterialTextFieldView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -694,52 +730,20 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		DE92A4E4AA51C70F211C9C79A2A2B915 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 928A3BD837596DC0C1EFB516D1BCF71B /* Pods-MaterialTextField_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTextField_Example/Pods-MaterialTextField_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaterialTextField_Example/Pods-MaterialTextField_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DC4202D63F8C38F4A90746AE8B8C652 /* Build configuration list for PBXNativeTarget "MaterialTextField" */ = {
+		47D2AF92212B4161EB2B86BC8892609F /* Build configuration list for PBXNativeTarget "RMaterialTextFieldView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12BA936CBF57D26668707838EE516665 /* Debug */,
-				377A23FD312C5A53E04D02136382B748 /* Release */,
+				08669BD81E929544683F75A642792B17 /* Debug */,
+				23F750694BD763B814084E301E412F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -747,26 +751,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A4CA07AB3F3A7C5B65762F6B63E79B6 /* Build configuration list for PBXNativeTarget "Pods-MaterialTextField_Tests" */ = {
+		94CFB2E405759D8AFC386F4F0E5EA06E /* Build configuration list for PBXNativeTarget "Pods-RMaterialTextFieldView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C4BF913802D989B46B99DB3BAB1E30B /* Debug */,
-				58F9C7AD3AFB12B065AB59A3339641D8 /* Release */,
+				787E7178497AD90D08AF884CCCB0E355 /* Debug */,
+				DFD5894C67E0CE9926EBA2361E587F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D05DF1587D608B343B0BC78C90D25505 /* Build configuration list for PBXNativeTarget "Pods-MaterialTextField_Example" */ = {
+		E8425009E0C2D0A63C936D04ADFAEA53 /* Build configuration list for PBXNativeTarget "Pods-RMaterialTextFieldView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE92A4E4AA51C70F211C9C79A2A2B915 /* Debug */,
-				28F2866163C2E17FF78BAB4CA84F2107 /* Release */,
+				978DEDE25FEA2FEFC165A7BC95B7E787 /* Debug */,
+				56F99D72CD46ADED35BE6F4E6C6A306A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
