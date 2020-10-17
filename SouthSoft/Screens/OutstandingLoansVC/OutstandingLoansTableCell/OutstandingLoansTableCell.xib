@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OutstandingLoansTableCell" rowHeight="217" id="wJB-j7-abJ" customClass="OutstandingLoansTableCell" customModule="EWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="217"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wJB-j7-abJ" id="NPB-8n-vP2">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="217"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6b-i3-TRc">
+                        <rect key="frame" x="20" y="10" width="379" height="166.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rhj-ka-ln2">
+                                <rect key="frame" x="0.0" y="31.5" width="379" height="1"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="AKh-0R-kIb"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Lorem Ipsum Bill" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KB2-Vu-DVK">
+                                <rect key="frame" x="20" y="10" width="339" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="270-4d-1Iz">
+                                <rect key="frame" x="20" y="42.5" width="339" height="59"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="- lorem Ipsum: $ 400 / $ 500 - Lorem Ipsum: 80% Completed - Lorem Ipsum 2 days to Close">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Poppins-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-uy-HPz">
+                                <rect key="frame" x="123.5" y="121.5" width="170" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBh-Gd-iIy">
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="rWG-qv-Hb0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                        <state key="normal" title="Download CSV">
+                                            <color key="titleColor" name="DarkYellow"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDq-1m-55r">
+                                        <rect key="frame" x="110" y="0.0" width="60" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="eY8-uf-6LD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                        <state key="normal" title="More info">
+                                            <color key="titleColor" name="DarkYellow"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="ThemeLightBlue"/>
+                        <constraints>
+                            <constraint firstItem="270-4d-1Iz" firstAttribute="leading" secondItem="k6b-i3-TRc" secondAttribute="leading" constant="20" id="Dzl-aq-mPA"/>
+                            <constraint firstItem="KB2-Vu-DVK" firstAttribute="leading" secondItem="k6b-i3-TRc" secondAttribute="leading" constant="20" id="FSd-Nh-F7z"/>
+                            <constraint firstItem="xvA-uy-HPz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="k6b-i3-TRc" secondAttribute="leading" constant="10" id="KAO-98-huK"/>
+                            <constraint firstAttribute="trailing" secondItem="rhj-ka-ln2" secondAttribute="trailing" id="LFK-Bd-Lbc"/>
+                            <constraint firstAttribute="trailing" secondItem="KB2-Vu-DVK" secondAttribute="trailing" constant="20" id="Q8b-Go-cAx"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xvA-uy-HPz" secondAttribute="trailing" constant="10" id="R3Q-Lg-MJ5"/>
+                            <constraint firstItem="xvA-uy-HPz" firstAttribute="centerX" secondItem="rhj-ka-ln2" secondAttribute="centerX" multiplier="1.1" id="Uz0-LE-eFZ"/>
+                            <constraint firstItem="xvA-uy-HPz" firstAttribute="top" secondItem="270-4d-1Iz" secondAttribute="bottom" constant="20" id="XpC-QO-yDi"/>
+                            <constraint firstItem="KB2-Vu-DVK" firstAttribute="top" secondItem="k6b-i3-TRc" secondAttribute="top" constant="10" id="ZaS-Km-Put"/>
+                            <constraint firstItem="270-4d-1Iz" firstAttribute="top" secondItem="rhj-ka-ln2" secondAttribute="bottom" constant="10" id="ZdD-3I-WGj"/>
+                            <constraint firstItem="rhj-ka-ln2" firstAttribute="top" secondItem="KB2-Vu-DVK" secondAttribute="bottom" constant="5" id="cfZ-LR-Pvk"/>
+                            <constraint firstItem="rhj-ka-ln2" firstAttribute="leading" secondItem="k6b-i3-TRc" secondAttribute="leading" id="djO-qj-A84"/>
+                            <constraint firstAttribute="bottom" secondItem="xvA-uy-HPz" secondAttribute="bottom" constant="10" id="jV6-xT-ZJc"/>
+                            <constraint firstAttribute="trailing" secondItem="270-4d-1Iz" secondAttribute="trailing" constant="20" id="tSb-Lv-R4X"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k6b-i3-TRc" firstAttribute="leading" secondItem="NPB-8n-vP2" secondAttribute="leading" constant="20" id="H8I-ar-yrE"/>
+                    <constraint firstAttribute="trailing" secondItem="k6b-i3-TRc" secondAttribute="trailing" constant="20" id="JFG-vd-blO"/>
+                    <constraint firstItem="k6b-i3-TRc" firstAttribute="top" secondItem="NPB-8n-vP2" secondAttribute="top" constant="10" id="PQs-0v-CDV"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="k6b-i3-TRc" secondAttribute="bottom" constant="10" id="ypl-Ev-NGP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <viewLayoutGuide key="safeArea" id="Pf2-Ql-A21"/>
+            <connections>
+                <outlet property="containerView" destination="k6b-i3-TRc" id="z6a-kc-Ucb"/>
+            </connections>
+            <point key="canvasLocation" x="50.000000000000007" y="69.977678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BackgroundColor">
+            <color red="0.027450980392156862" green="0.10196078431372549" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="DarkYellow">
+            <color red="0.52941176470588236" green="0.88627450980392153" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeLightBlue">
+            <color red="0.079000003635883331" green="0.17200000584125519" blue="0.460999995470047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

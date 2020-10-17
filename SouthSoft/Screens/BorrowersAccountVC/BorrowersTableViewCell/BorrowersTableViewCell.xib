@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BorrowersTableViewCell" rowHeight="217" id="KGk-i7-Jjw" customClass="BorrowersTableViewCell" customModule="EWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="217"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="217"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3J-y7-uyZ">
+                        <rect key="frame" x="20" y="10" width="379" height="124"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihI-t2-i2i">
+                                <rect key="frame" x="0.0" y="34" width="379" height="1"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ZV6-iJ-eaz"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSj-Br-maq">
+                                <rect key="frame" x="20" y="10" width="339" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Loan No. 1 :">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Poppins-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="   $750 ">
+                                        <attributes>
+                                            <color key="NSColor" name="lightYellow"/>
+                                            <font key="NSFont" size="16" name="Poppins-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" $250">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Poppins-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  PAID">
+                                        <attributes>
+                                            <color key="NSColor" name="lightYellow"/>
+                                            <font key="NSFont" size="16" name="Poppins-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7c-wf-9yw">
+                                <rect key="frame" x="20" y="45" width="339" height="59"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="- 2 payments of $ 125 - 9 days until next payment - 39 days until paid - off">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Poppins-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="ThemeLightBlue"/>
+                        <constraints>
+                            <constraint firstItem="dSj-Br-maq" firstAttribute="top" secondItem="d3J-y7-uyZ" secondAttribute="top" constant="10" id="EG1-oy-kbO"/>
+                            <constraint firstItem="dSj-Br-maq" firstAttribute="leading" secondItem="d3J-y7-uyZ" secondAttribute="leading" constant="20" id="Ioo-6C-m4A"/>
+                            <constraint firstItem="I7c-wf-9yw" firstAttribute="top" secondItem="ihI-t2-i2i" secondAttribute="bottom" constant="10" id="PqU-Nk-rIw"/>
+                            <constraint firstAttribute="trailing" secondItem="ihI-t2-i2i" secondAttribute="trailing" id="Vnu-r0-nj2"/>
+                            <constraint firstAttribute="bottom" secondItem="I7c-wf-9yw" secondAttribute="bottom" constant="20" id="XXE-90-rVW"/>
+                            <constraint firstAttribute="trailing" secondItem="I7c-wf-9yw" secondAttribute="trailing" constant="20" id="YTN-4E-LOx"/>
+                            <constraint firstItem="I7c-wf-9yw" firstAttribute="leading" secondItem="d3J-y7-uyZ" secondAttribute="leading" constant="20" id="c6H-5C-2Kd"/>
+                            <constraint firstItem="ihI-t2-i2i" firstAttribute="top" secondItem="dSj-Br-maq" secondAttribute="bottom" constant="5" id="iCa-hl-FBn"/>
+                            <constraint firstItem="ihI-t2-i2i" firstAttribute="leading" secondItem="d3J-y7-uyZ" secondAttribute="leading" id="pKg-eg-r3f"/>
+                            <constraint firstAttribute="trailing" secondItem="dSj-Br-maq" secondAttribute="trailing" constant="20" id="wGW-IA-nSp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d3J-y7-uyZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RHO-qY-IOA"/>
+                    <constraint firstAttribute="trailing" secondItem="d3J-y7-uyZ" secondAttribute="trailing" constant="20" id="WC3-E6-Fdu"/>
+                    <constraint firstItem="d3J-y7-uyZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="a2k-oL-4Ec"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="d3J-y7-uyZ" secondAttribute="bottom" constant="10" id="pua-it-OlN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="d3J-y7-uyZ" id="7dL-MH-JJa"/>
+            </connections>
+            <point key="canvasLocation" x="50.000000000000007" y="69.977678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BackgroundColor">
+            <color red="0.027450980392156862" green="0.10196078431372549" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeLightBlue">
+            <color red="0.079000003635883331" green="0.17200000584125519" blue="0.460999995470047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightYellow">
+            <color red="0.65490196078431373" green="1" blue="0.51372549019607838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

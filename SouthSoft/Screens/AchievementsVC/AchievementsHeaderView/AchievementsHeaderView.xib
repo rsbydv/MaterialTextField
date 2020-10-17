@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AchievementsHeaderView" id="U6b-Vx-4bR" customClass="AchievementsHeaderView" customModule="EWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="336"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agI-yc-rFD">
+                    <rect key="frame" x="0.0" y="0.0" width="485" height="336"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Aj-y0-h7O">
+                            <rect key="frame" x="10" y="65.5" width="465" height="205"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmZ-2i-rXy">
+                                    <rect key="frame" x="172.5" y="10" width="120" height="120"/>
+                                    <color key="backgroundColor" name="lightYellow"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="750" constant="120" id="YVi-Me-jQ0"/>
+                                        <constraint firstAttribute="width" secondItem="XmZ-2i-rXy" secondAttribute="height" multiplier="1:1" id="cHb-ey-3wL"/>
+                                    </constraints>
+                                    <state key="normal" image="achievement_icon"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Achievements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKG-Af-K68">
+                                    <rect key="frame" x="20" y="150" width="425" height="23.5"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03 out of 23 Unlocked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yI6-z0-1wJ">
+                                    <rect key="frame" x="10" y="178.5" width="445" height="16.5"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="WKG-Af-K68" firstAttribute="leading" secondItem="4Aj-y0-h7O" secondAttribute="leading" constant="20" id="1Dl-YZ-UaD"/>
+                                <constraint firstItem="yI6-z0-1wJ" firstAttribute="leading" secondItem="4Aj-y0-h7O" secondAttribute="leading" constant="10" id="8Ac-BX-3GU"/>
+                                <constraint firstItem="XmZ-2i-rXy" firstAttribute="top" secondItem="4Aj-y0-h7O" secondAttribute="top" constant="10" id="DQS-wH-crv"/>
+                                <constraint firstItem="WKG-Af-K68" firstAttribute="top" secondItem="XmZ-2i-rXy" secondAttribute="bottom" constant="20" id="Hr3-mb-OFT"/>
+                                <constraint firstAttribute="trailing" secondItem="yI6-z0-1wJ" secondAttribute="trailing" constant="10" id="W3r-Wh-YZZ"/>
+                                <constraint firstAttribute="bottom" secondItem="yI6-z0-1wJ" secondAttribute="bottom" constant="10" id="dWA-j8-ijR"/>
+                                <constraint firstAttribute="trailing" secondItem="WKG-Af-K68" secondAttribute="trailing" constant="20" id="gCa-3X-dYD"/>
+                                <constraint firstItem="XmZ-2i-rXy" firstAttribute="centerX" secondItem="4Aj-y0-h7O" secondAttribute="centerX" id="rGF-Iv-wHB"/>
+                                <constraint firstItem="yI6-z0-1wJ" firstAttribute="top" secondItem="WKG-Af-K68" secondAttribute="bottom" constant="5" id="sfr-aK-fdc"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" name="BackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="4Aj-y0-h7O" firstAttribute="centerY" secondItem="agI-yc-rFD" secondAttribute="centerY" id="P7V-Nz-KOD"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4Aj-y0-h7O" secondAttribute="bottom" constant="10" id="SRR-Vl-T0M"/>
+                        <constraint firstItem="4Aj-y0-h7O" firstAttribute="top" relation="greaterThanOrEqual" secondItem="agI-yc-rFD" secondAttribute="top" constant="10" id="Wyf-Dy-fYk"/>
+                        <constraint firstItem="4Aj-y0-h7O" firstAttribute="leading" secondItem="agI-yc-rFD" secondAttribute="leading" constant="10" id="Xd0-dB-iGQ"/>
+                        <constraint firstAttribute="trailing" secondItem="4Aj-y0-h7O" secondAttribute="trailing" constant="10" id="akX-z0-Fo3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="agI-yc-rFD" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="5ly-Bf-H35"/>
+                <constraint firstItem="agI-yc-rFD" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="6Hc-u0-QeU"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="agI-yc-rFD" secondAttribute="trailing" id="DEi-b0-V65"/>
+                <constraint firstAttribute="bottom" secondItem="agI-yc-rFD" secondAttribute="bottom" id="JrV-5w-Fzi"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="containerView" destination="agI-yc-rFD" id="F9g-DU-c0d"/>
+                <outlet property="icon" destination="XmZ-2i-rXy" id="6vp-BG-FZo"/>
+            </connections>
+            <point key="canvasLocation" x="254.34782608695653" y="101.78571428571428"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="achievement_icon" width="94.5" height="65.5"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.027450980392156862" green="0.10196078431372549" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightYellow">
+            <color red="0.65490196078431373" green="1" blue="0.51372549019607838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

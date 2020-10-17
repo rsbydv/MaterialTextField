@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SideMenuTableViewCell" rowHeight="52" id="KGk-i7-Jjw" customClass="SideMenuTableViewCell" customModule="EWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="399" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ib-c9-xY9">
+                        <rect key="frame" x="0.0" y="0.0" width="399" height="52"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOM-A5-2n7" userLabel="border">
+                                <rect key="frame" x="0.0" y="50" width="399" height="2"/>
+                                <color key="backgroundColor" name="ThemeLightBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="JTW-1u-Hg1"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balance_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ZEg-gS-pS1">
+                                <rect key="frame" x="15" y="14.5" width="23" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="FsA-hU-BU7"/>
+                                    <constraint firstAttribute="width" constant="23" id="VV7-Bb-FME"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrE-ZZ-SpS">
+                                <rect key="frame" x="48" y="15" width="38" height="20"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_back" translatesAutoresizingMaskIntoConstraints="NO" id="gp5-9V-VJe">
+                                <rect key="frame" x="354" y="16" width="30" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="4O5-di-IQE"/>
+                                    <constraint firstAttribute="height" constant="20" id="73x-pY-Eu9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdG-Pg-dZs">
+                                <rect key="frame" x="96" y="18" width="36" height="16"/>
+                                <color key="backgroundColor" name="lightYellow"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="VzH-RY-zKJ"/>
+                                    <constraint firstAttribute="width" constant="36" id="Y7k-Vt-U0X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="10"/>
+                                <inset key="titleEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="PRO">
+                                    <color key="titleColor" name="BackgroundColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WdG-Pg-dZs" firstAttribute="centerY" secondItem="0Ib-c9-xY9" secondAttribute="centerY" id="32W-R7-CX3"/>
+                            <constraint firstItem="gp5-9V-VJe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WdG-Pg-dZs" secondAttribute="trailing" constant="5" id="8WJ-rg-nYi"/>
+                            <constraint firstAttribute="trailing" secondItem="gp5-9V-VJe" secondAttribute="trailing" constant="15" id="9mq-hk-8lk"/>
+                            <constraint firstItem="WdG-Pg-dZs" firstAttribute="leading" secondItem="lrE-ZZ-SpS" secondAttribute="trailing" constant="10" id="D3Y-jX-NAa"/>
+                            <constraint firstAttribute="trailing" secondItem="BOM-A5-2n7" secondAttribute="trailing" id="WSI-ie-IdT"/>
+                            <constraint firstItem="lrE-ZZ-SpS" firstAttribute="top" secondItem="0Ib-c9-xY9" secondAttribute="top" constant="15" id="XZH-OO-o07"/>
+                            <constraint firstItem="ZEg-gS-pS1" firstAttribute="leading" secondItem="0Ib-c9-xY9" secondAttribute="leading" constant="15" id="Z81-TO-tlE"/>
+                            <constraint firstItem="gp5-9V-VJe" firstAttribute="centerY" secondItem="0Ib-c9-xY9" secondAttribute="centerY" id="eQK-WZ-O8l"/>
+                            <constraint firstAttribute="bottom" secondItem="BOM-A5-2n7" secondAttribute="bottom" id="kiH-O9-1Qi"/>
+                            <constraint firstItem="BOM-A5-2n7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="lrE-ZZ-SpS" secondAttribute="bottom" constant="15" id="qdb-MJ-Usr"/>
+                            <constraint firstItem="lrE-ZZ-SpS" firstAttribute="leading" secondItem="ZEg-gS-pS1" secondAttribute="trailing" constant="10" id="r5K-F2-2ka"/>
+                            <constraint firstItem="ZEg-gS-pS1" firstAttribute="centerY" secondItem="0Ib-c9-xY9" secondAttribute="centerY" id="r7S-Eg-yqs"/>
+                            <constraint firstItem="BOM-A5-2n7" firstAttribute="leading" secondItem="0Ib-c9-xY9" secondAttribute="leading" id="tbP-jz-TBS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="BackgroundColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="0Ib-c9-xY9" secondAttribute="bottom" id="Muw-UG-PIG"/>
+                    <constraint firstItem="0Ib-c9-xY9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aMG-lK-rbq"/>
+                    <constraint firstItem="0Ib-c9-xY9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="e3O-ES-1Vv"/>
+                    <constraint firstAttribute="trailing" secondItem="0Ib-c9-xY9" secondAttribute="trailing" id="oMN-xL-nee"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrow" destination="gp5-9V-VJe" id="KHG-v2-vha"/>
+                <outlet property="icon" destination="ZEg-gS-pS1" id="VX6-ly-ufH"/>
+                <outlet property="label" destination="lrE-ZZ-SpS" id="qCM-Tm-7yv"/>
+                <outlet property="proButton" destination="WdG-Pg-dZs" id="H2I-cy-EsN"/>
+                <outlet property="proButtonWidth" destination="Y7k-Vt-U0X" id="tzI-KW-9ba"/>
+            </connections>
+            <point key="canvasLocation" x="-55.797101449275367" y="30.803571428571427"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_back" width="24" height="24"/>
+        <image name="balance_icon" width="24" height="24"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.027450980392156862" green="0.10196078431372549" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeLightBlue">
+            <color red="0.079000003635883331" green="0.17200000584125519" blue="0.460999995470047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightYellow">
+            <color red="0.65490196078431373" green="1" blue="0.51372549019607838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
