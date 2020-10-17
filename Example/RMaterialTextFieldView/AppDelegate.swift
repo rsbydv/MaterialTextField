@@ -3,7 +3,7 @@
 //  RMaterialTextFieldView
 //
 //  Created by rsbydv on 08/01/2019.
-//  Copyright (c) 2019 rsbydv. All rights reserved.
+//  Copyright (c) 2019 SouthSoft. All rights reserved.
 //
 
 import UIKit

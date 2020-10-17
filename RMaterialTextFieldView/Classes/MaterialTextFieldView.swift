@@ -3,7 +3,7 @@
 //  OnGraviti
 //
 //  Created by Rishabh Yadav on 2/5/19.
-//  Copyright © 2019 Mobikasa. All rights reserved.
+//  Copyright © 2019 SouthSoft. All rights reserved.
 //
 
 import UIKit
